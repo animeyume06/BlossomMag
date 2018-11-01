@@ -47,6 +47,10 @@
 
 }
 
+.arrow-left:hover, .arrow-right:hover {
+    cursor: pointer;
+}
+
 .arrow-left{
     position: absolute;
     bottom: 300px;
