@@ -199,7 +199,7 @@ border: 3px solid rgba(117,200,170,1.00);
 .btn-gallery:hover, .btn-gallery:active, .btn-gallery:focus{
     border-bottom: 3px solid white;
     margin: 8px 5px 5px 5px;
-
+    color: black!important;
 }
 
 @media (max-width:768px) {
