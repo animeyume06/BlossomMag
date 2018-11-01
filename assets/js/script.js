@@ -84,12 +84,6 @@ $(document).ready(function(){
         Filter Gallery - navigation
     ===================================== */
 
-    // Fix page jumping around
-    if( $(window).width() > 767 ){
-        var galleryHeight = $('#filter-gallery').height();
-        $('#filter-gallery').css({"min-height":galleryHeight+"px"});
-    }
-
 
     // styled hover + active in css
 
