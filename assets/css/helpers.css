@@ -1,0 +1,90 @@
+/*colors*/
+.white			{color: #fff!important;}
+.black			{color: #000;}
+.blue		{color: rgba(117,200,170,1.00);}
+.grey   	{color: rgba(112,112,112,1.00);}
+
+
+
+.bg-white		{background-color: #fff;}
+.bg-black		{background-color: #000;}
+.bg-blue		{background-color: rgba(117,200,170,1.00);}
+.bg-grey		{background-color: rgba(112,112,112,1.00);}
+
+
+/*font*/
+.p-bernino{
+font-family: 'jaf-bernino-sans-condensed', sans-serif;
+font-weight:400;
+font-style: normal;
+color: #707070;
+font-size: 14px;
+line-height: 2;
+}
+
+.h-bold-bernino{
+    font-family: 'jaf-bernino-sans-condensed', sans-serif;
+    font-weight:800;
+    font-style: normal;
+    color: #707070;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.h1-noteworthy{
+    font-family: "Noteworthy";
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.h2-noteworthy{
+    font-family: "noteworthy";
+    color: white;
+    font-size: 30px;
+    color:rgba(117,200,170,1.00);
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+@media (max-width:700px) {
+    .h1-noteworthy{
+        font-size: 29px;
+    }
+
+    .h-bold-bernino{
+        font-size: 14px;
+    }
+}
+
+
+
+/*Text Alignment*/
+.textleft{ text-align: left!important;}
+.textright{ text-align: right!important;}
+.textjustify{text-align: justify!important;}
+.textcenter{ text-align: center!important;}
+
+/*Bottom marigns*/
+.nomargin {margin:0!important;}
+.smmargin {margin-bottom: 20px!important;}
+.mdmargin {margin-bottom: 40px!important;}
+.lgmargin {margin-bottom: 60px!important;}
+.xlmargin {margin-bottom: 80px!important;}
+
+
+/*Box padding - should be the same throughout webpage*/
+.nopadding{padding-top: 0px; padding-bottom: 0px!important;}
+.smpadding{padding-top: 20px; padding-bottom: 20px!important;}
+.mdpadding{padding-top: 40px; padding-bottom: 40px!important;}
+.lgpadding{padding-top: 60px; padding-bottom: 60px!important;}
+.xlpadding{padding-top: 80px; padding-bottom: 80px!important;}
+.nopadding-bottom{padding-bottom: 0px!important;}
+.nopadding-top{padding-top: 0px!important;}
+
+
+
+/*Image Alignment*/
+.alignleft{float: left!important;}
+.alignright{float:right!important;}
+.aligncenter{margin-left: auto; margin-right: auto!important;}
