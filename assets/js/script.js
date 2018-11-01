@@ -5,7 +5,7 @@ $(document).ready(function(){
     ===================================== */
 
     var x = 0;
-    var imagesSL = ['splash-background.png','splash-background-2.jpg','splash-background-3.jpg'];
+    var imagesSL = ['img-slider004.jpg','img-slider001.jpg','img-slider002.jpg','img-slider003.jpg','img-slider005.jpg'];
 
 
 // forward click
